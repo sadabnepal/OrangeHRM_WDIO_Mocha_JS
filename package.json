@@ -4,7 +4,8 @@
   "description": "Automated Test Scripts of Orange HRM travel",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/wdio ./wdio.conf.js"
+    "test": "node_modules/.bin/wdio ./wdio.conf.js",
+    "ReportRun": "node_modules/.bin//allure generate --clean allure-results/ && node_modules/.bin/allure open"
   },
   "author": "MD SADAB SAQIB",
   "license": "ISC",
