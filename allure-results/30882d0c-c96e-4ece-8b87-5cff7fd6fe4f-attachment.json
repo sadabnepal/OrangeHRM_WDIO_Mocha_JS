@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//legend[text()='Pending Leave Requests']/parent::*"
+}

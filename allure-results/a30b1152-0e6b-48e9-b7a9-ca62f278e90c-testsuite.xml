@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1593491225217' stop='1593491285565'>
+    <name>Learning frames</name>
+    <title>Learning frames</title>
+    <test-cases>
+        <test-case start='1593491225218' status='broken' stop='1593491285558'>
+            <name>should drag and drop</name>
+            <title>should drag and drop</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1593491225508' status='broken' stop='1593491285556'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='3208e0a5-c10b-48a7-9a59-86dbd7717b47-attachment.json' type='application/json' size='46'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Learning frames should drag and drop" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (E:\Learning\WebDriverio\OrangeHRM_Mocha_V001\test\frame.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Learning frames should drag and drop" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (E:\Learning\WebDriverio\OrangeHRM_Mocha_V001\test\frame.js)
+                    at Test.Runnable._timeoutError (E:\Learning\WebDriverio\OrangeHRM_Mocha_V001\node_modules\mocha\lib\runnable.js:442:10)
+                    at Timeout.&lt;anonymous> (E:\Learning\WebDriverio\OrangeHRM_Mocha_V001\node_modules\mocha\lib\runnable.js:252:24)
+                    at listOnTimeout (internal/timers.js:549:17)
+                    at processTimers (internal/timers.js:492:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//legend[text()='Quick Launch']/parent::*"
+}

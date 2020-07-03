@@ -1,0 +1,118 @@
+{
+  "id": {
+    "sessionId": "fba631f127f4f7bd3ef08f0f1c3b3bf6",
+    "elementId": "d2ac0d59-46a0-4548-a1eb-466894a658a9",
+    "element-6066-11e4-a52e-4f735466cecf": "d2ac0d59-46a0-4548-a1eb-466894a658a9",
+    "selector": "#frame1",
+    "parent": {
+      "sessionId": "fba631f127f4f7bd3ef08f0f1c3b3bf6",
+      "capabilities": {
+        "acceptInsecureCerts": false,
+        "browserName": "chrome",
+        "browserVersion": "83.0.4103.116",
+        "chrome": {
+          "chromedriverVersion": "83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416})",
+          "userDataDir": "C:\\Users\\Sadab\\AppData\\Local\\Temp\\scoped_dir6408_1923871716"
+        },
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:53466"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "windows",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:virtualAuthenticators": true
+      },
+      "config": {
+        "specs": [
+          "E:\\Learning\\WebDriverio\\OrangeHRM_Mocha_V001\\test\\frame.js"
+        ],
+        "suites": {},
+        "exclude": [],
+        "logLevel": "debug",
+        "logLevels": {},
+        "excludeDriverLogs": [],
+        "bail": 0,
+        "waitforInterval": 500,
+        "waitforTimeout": 10000,
+        "framework": "mocha",
+        "reporters": [
+          "spec",
+          [
+            "allure",
+            {
+              "outputDir": "allure-results"
+            }
+          ]
+        ],
+        "services": [
+          "chromedriver"
+        ],
+        "maxInstances": 10,
+        "maxInstancesPerCapability": 100,
+        "filesToWatch": [],
+        "connectionRetryTimeout": 120000,
+        "connectionRetryCount": 3,
+        "execArgv": [],
+        "runnerEnv": {},
+        "runner": "local",
+        "mochaOpts": {
+          "timeout": 60000,
+          "ui": "bdd"
+        },
+        "jasmineNodeOpts": {
+          "defaultTimeoutInterval": 10000
+        },
+        "cucumberOpts": {
+          "timeout": 10000
+        },
+        "onPrepare": [],
+        "onWorkerStart": [],
+        "before": [],
+        "beforeSession": [],
+        "beforeSuite": [],
+        "beforeHook": [],
+        "beforeTest": [
+          null
+        ],
+        "beforeCommand": [],
+        "afterCommand": [],
+        "afterTest": [
+          null
+        ],
+        "afterHook": [],
+        "afterSuite": [],
+        "afterSession": [],
+        "after": [],
+        "onComplete": [],
+        "onReload": [],
+        "beforeFeature": [],
+        "beforeScenario": [],
+        "beforeStep": [],
+        "afterStep": [],
+        "afterScenario": [],
+        "afterFeature": [],
+        "baseUrl": "https://opensource-demo.orangehrmlive.com",
+        "_": [
+          "./wdio.conf.js"
+        ],
+        "spec": [
+          "./test/frame.js"
+        ],
+        "$0": "node_modules\\@wdio\\cli\\bin\\wdio.js",
+        "ignoredWorkerServices": [],
+        "specFileRetryAttempts": 0
+      },
+      "_NOT_FIBER": true
+    },
+    "isReactElement": false
+  }
+}
