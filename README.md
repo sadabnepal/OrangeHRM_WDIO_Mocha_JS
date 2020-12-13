@@ -1,5 +1,5 @@
 # OrangeHRM_WDIO_Mocha_JavaScript
-This is a sample project that uses WebdriverIO and JavaScript. This project is useful not only as an example of WebdriverIO and JavaScript playing nicely together, but it includes examples of the PageObject pattern and some practical examples for using WebdriverIO to build an automated test suite with Mocha & Chai.
+This is a sample project that uses WebdriverIO and JavaScript. It includes examples of the PageObject pattern and some practical examples for using WebdriverIO for cross browser and parallel testing.
 
 ## Pre-requisite Steps
 ```
@@ -22,4 +22,4 @@ This is a sample project that uses WebdriverIO and JavaScript. This project is u
 `spec-reporter`
 
 ### Generate/Open allure reporter
-- In the terminal, perform `npm run ReportRun` to open allure report port. Report will be opened in default browser 
+- In the terminal, perform `npm run ReportRun` to open allure report port. Report will be opened in default browser
