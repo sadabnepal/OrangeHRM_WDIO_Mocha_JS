@@ -6,6 +6,7 @@ exports.config = {
 
     // ==================
     // Specify Test Files
+	// ==================
     specs: [
         './test/**/*.js'
     ],
