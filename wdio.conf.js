@@ -7,7 +7,7 @@ exports.config = {
     // ==================
     // Specify Test Files
     specs: [
-        './test/**/login.test.js'
+        './test/**/*.js'
     ],
     // Patterns to exclude.
     exclude: [
