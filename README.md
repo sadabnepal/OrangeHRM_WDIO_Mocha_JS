@@ -1,10 +1,10 @@
-# OrangeHRM_WDIO_Mocha_JavaScript
+# WDIO6_JavaScript_Mocha
 This is a sample project that uses WebdriverIO and JavaScript. It includes examples of the PageObject pattern and some practical examples for using WebdriverIO for cross browser and parallel testing.
 
 ## Pre-requisite Steps
 ```
-1. git clone https://github.com/sadabnepal/OrangeHRM_WDIO_Mocha_JavaScript.git
-2. Navigate to OrangeHRM_WDIO_Mocha_JavaScript
+1. git clone https://github.com/sadabnepal/WDIO6_JavaScript_Mocha.git
+2. Navigate to WDIO6_JavaScript_Mocha
 3. In the terminal, Perform "npm i" to install all the dependencies present in the package.json file.
 4. In the terminal, perform `npm run test` to start the script execution
 ```
@@ -22,4 +22,13 @@ This is a sample project that uses WebdriverIO and JavaScript. It includes examp
 `spec-reporter`
 
 ### Generate/Open allure reporter
-- In the terminal, perform `npm run ReportRun` to open allure report port. Report will be opened in default browser
+- In the terminal, perform `npm run report` to open allure report port. Report will be opened in default browser
+
+### Key Features
+	- Mocha framework
+	- Parallel execution
+	- Cross browser testing
+	- Page Object Model pattern
+	
+### Sample Report
+![image](https://user-images.githubusercontent.com/65847528/102648981-76d89900-418e-11eb-89a9-29a6289b0d73.png)

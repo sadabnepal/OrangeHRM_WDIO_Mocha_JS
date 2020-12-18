@@ -1,11 +1,11 @@
 {
-  "name": "orangehrm_mocha_v001",
+  "name": "WDIO6_JavaScript_Mocha",
   "version": "1.0.0",
   "description": "Automated Test Scripts of Orange HRM travel",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/wdio ./wdio.conf.js",
-    "ReportRun": "node_modules/.bin//allure generate --clean allure-results/ && node_modules/.bin/allure open"
+    "report": "allure generate --clean allure-results && allure open"
   },
   "author": "MD SADAB SAQIB",
   "license": "ISC",
@@ -17,7 +17,6 @@
     "@wdio/selenium-standalone-service": "^6.10.6",
     "@wdio/spec-reporter": "^6.1.14",
     "@wdio/sync": "^6.1.14",
-    "allure-commandline": "^2.13.0",
     "chai": "^4.2.0",
     "chai-webdriverio": "^1.0.0",
     "chromedriver": "^83.0.0",
@@ -25,6 +24,7 @@
     "webdriverio": "^6.1.17"
   },
   "dependencies": {
-    "@wdio/cli": "^6.1.19"
+    "@wdio/cli": "^6.1.19",
+    "allure-commandline": "^2.13.0"
   }
 }
