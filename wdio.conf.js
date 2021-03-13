@@ -8,7 +8,7 @@ exports.config = {
     // Specify Test Files
 	// ==================
     specs: [
-        './test/**/*.js'
+        './test/**/login.test.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -24,10 +24,10 @@ exports.config = {
 			maxInstances: 1,
 			browserName: 'chrome',
 		},
-		{
-			maxInstances: 1,
-			browserName: 'firefox',
-		}
+		// {
+		// 	maxInstances: 1,
+		// 	browserName: 'firefox',
+		// }
 	],
 
     // ===================
