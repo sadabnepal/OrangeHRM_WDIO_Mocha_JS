@@ -1,5 +1,5 @@
-const ElementUtil=require('../util/elemUtil');
-const constants=require('../constant');
+const constants=require('../constants/FrameworkContants');
+const page = require('./page');
 
 class LoginPage {
 
@@ -12,21 +12,21 @@ class LoginPage {
 
     //Action Methods
     getLoginPageTitle() {
-        return ElementUtil.doGetPageTitle(constants.LOGIN_PAGE_HEADER);
+        return page.doGetPageTitle(constants.LOGIN_PAGE_HEADER);
     }
 
     isLoginHeaderDisplayed() {
-       return ElementUtil.doIsDisplayed(this.loginHeader);
+       return page.doIsDisplayed(this.loginHeader);
     }
 
     isForgotPasswordDisplayed() {
-        return ElementUtil.doIsDisplayed(this.lnkForgotPassword);
+        return page.doIsDisplayed(this.lnkForgotPassword);
     }
 
     doLogin(userid, pwd){
-        ElementUtil.doSetValue(this.txtUser, userid);
-        ElementUtil.doSetValue(this.txtPassword, pwd);
-        ElementUtil.doClick(this.btnLogin);
+        page.doSetValue(this.txtUser, userid);
+        page.doSetValue(this.txtPassword, pwd);
+        page.doClick(this.btnLogin);
     }
 
 }
