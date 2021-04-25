@@ -1,10 +1,10 @@
 {
-  "name": "WDIO_JavaScript_Mocha",
+  "name": "WebdriverIOJavaScriptMocha",
   "version": "1.0.0",
   "description": "Automated Test Scripts of Orange HRM travel",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/wdio ./wdio.conf.js",
+    "test": "npx wdio wdio.conf.js",
     "report": "allure generate --clean allure-results && allure open"
   },
   "author": "MD SADAB SAQIB",
