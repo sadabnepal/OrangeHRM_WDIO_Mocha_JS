@@ -1,12 +1,12 @@
-# WDIO_JavaScript_Mocha
+# WebdriverIOJavaScriptMocha
 This is a sample project that uses WebdriverIO and JavaScript. It includes examples of the PageObject pattern and some practical examples for using WebdriverIO for cross browser and parallel testing.
 
 ## Pre-requisite Steps
 ```
-1. git clone https://github.com/sadabnepal/WDIO_JavaScript_Mocha.git
-2. Navigate to WDIO_JavaScript_Mocha
+1. git clone https://github.com/sadabnepal/WebdriverIOJavaScriptMocha.git
+2. Navigate to WebdriverIOJavaScriptMocha
 3. In the terminal, Perform "npm i" to install all the dependencies present in the package.json file.
-4. In the terminal, perform `npm run test` to start the script execution
+4. In the terminal, perform `npm test` to start the script execution
 ```
 ### Folder structure
 - page - This folder contains all page objects and related action methods
