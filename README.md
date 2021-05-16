@@ -13,22 +13,21 @@ This is a sample project that uses WebdriverIO and JavaScript. It includes examp
 ```
 ├───src
 │   ├───main
-|	│   ├───config
-|	│   |   └───configdata.js
-|	│   ├───constants
-|	│   |   ├───FrameworkConstants.js
-|	│   |   └───WaitConstants.js
-|	│   ├───pages
-|	│   |   ├───dashboard.page.js
-|	│   |   ├───login.page.js
-|	│   |   └───page.js
-|	│   └───util
-|	│       └───WaitUtils.js
-|	└───test
+|   │   ├───config
+|   │   |   └───configdata.js
+|   │   ├───constants
+|   │   |   ├───FrameworkConstants.js
+|   │   |   └───WaitConstants.js
+|   │   ├───pages
+|   │   |   ├───dashboard.page.js
+|   │   |   ├───login.page.js
+|   │   |   └───page.js
+|   │   └───util
+|   │       └───WaitUtils.js
+|   └───test
 |	    ├───dashboard.test.js
 |	    ├───frameAndDrag.test.js
 |	    └───login.test.js
-|
 ├───package.json
 ├───README.md
 └───wdio.conf.js
