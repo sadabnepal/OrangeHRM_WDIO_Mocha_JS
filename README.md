@@ -1,7 +1,7 @@
 # WebdriverIOJavaScriptMocha
 This is a sample project that uses WebdriverIO and JavaScript. It includes examples of the PageObject pattern and some practical examples for using WebdriverIO for cross browser and parallel testing.
 
-## Pre-requisite Steps
+### Pre-requisite Steps
 ```
 1. git clone https://github.com/sadabnepal/WebdriverIOJavaScriptMocha.git
 2. Navigate to WebdriverIOJavaScriptMocha
